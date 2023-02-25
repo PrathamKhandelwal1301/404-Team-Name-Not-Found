@@ -49,7 +49,7 @@ const student = mongoose.model('student', studentSchema);
 const stuList = mongoose.model('stuList', stuListSchema);
 /////////////////////////////////////////// .   MODEL FORMATIONS DONE    ////////////////////////////////
 app.get("/", (req, res) => {
-    res.render(__dirname + "/public/signup-signin/signin.ejs");
+    res.render(__dirname + "/public/index.ejs");
 })
 
 app.listen(port, () => {
