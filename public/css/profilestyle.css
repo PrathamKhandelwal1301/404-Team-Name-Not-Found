@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #F3F3F3;
+    padding: 10%;
+}
+
+.text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uxa-form-group
+{
+    max-width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    box-shadow: 5px 5px 5px 5px #32323226;
+    margin: auto;
+  }
+  
+.form-group
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .uxa-user-avatar {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    border: 5px solid;
+    border-color: rgb(255, 255, 255);
+  }
+  .uxa-user-avatar img {
+    width: 150px;
+  }
+
+.form-group
+{
+    margin-bottom: 10px;
+}
+
+
+.input-control
+{
+    background: rgb(0, 0, 0);
+    border-radius: 40px;
+    background: transparent;
+    border: 1px solid #ffff;
+    text-align: center;
+    color: #ffffff;
+    height: 25px;
+}
+
+.btn 
+{
+    margin: auto;
+    background-color: rgb(129, 250, 118);
+    border: none;
+    border-radius: 10px;
+    width:165px;
+    height: 25px;
+}
+
+button:hover
+{
+    box-shadow:0 0px 10px 1px rgb(129, 250, 118);
+    transition: all 0.3s ease 0s;
+}
+
+button:active
+{
+    box-shadow:0 0px 10px 1px inset rgb(129, 250, 118);
+    transition: all 0.6s ease 0s;
+}
