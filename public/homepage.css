@@ -1,0 +1,167 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Proxima Nova;
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+  src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+body{
+  margin : 0;
+  background-color: #FFFFFF;
+}
+.header{
+  height : 10dvh;
+  background-color : black;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -15px;
+}
+h1{
+  margin : 0;
+  position: absolute;
+  top : 2dvh;
+  left : 6dvh;
+  color: white;
+  align-items: center;
+  font-size: 5dvh;
+  font-family: 'Tilt Prism', cursive;
+}
+h2{
+  margin : 0;
+  position: absolute;
+  top : 3.5dvh;
+  right : 6dvh;
+  color: white;
+  align-items: center;
+  font-size: 2.15dvh;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.ogin{
+  font-size: 1.65dvh;
+}
+.ignup{
+  font-size: 1.65dvh;
+}
+.to-from{
+  margin-left: 15dvh;
+  margin-top: 5dvh;
+  height: 50dvh;
+  width: 50dvh;
+  background-color:#FFFFFF;
+  border: solid;
+  border-radius: 5dvh;
+  border-color: #7F8487;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
+.search-box {
+  font-size: 3vh;
+  border: 1px solid #C1C1C1;
+  background-color: white;
+  width: 40vh;
+  border-radius: 10px;
+  transition: .2s;
+  margin-left: 5vh;
+  margin-bottom: 2vh;
+}
+.search-box:hover {
+  border-color: #AAAAAA;
+}
+.search-box:focus-within {
+  border-color: #000000;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.6);
+}
+input {
+  font-family: Proxima Nova;
+  letter-spacing: -0.2px;
+  font-size: 30px;
+  border: none;
+  color: #323232;
+}
+button:hover {
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+input[type='search']::-webkit-search-cancel-button {
+	-webkit-appearance: none;
+}
+.clear:not(:valid) ~ .search-clear {
+	display: none;
+}
+.ride{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 3.5vh;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 4vh;
+  background-color: black;
+  width: 40vh;
+  border-radius: 5vh;
+  margin-left: 5vh;
+  background-blend-mode: soft-light;
+  color: white;
+  height: 5vh;
+}
+.book-a-ride{
+  background-color: black;
+  width: 40vh;
+  margin-left: 5vh;
+  margin-top: 2vh;
+  height: 5vh;
+  border-radius: 5vh;
+  font-family: proxima nova;
+  font-size: 3.5vh;
+  color: white;
+  font-weight: bolder;
+  transition: 0.4s;
+}
+.book-a-ride:hover{
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
+.or{
+  font-family: proxima nova;
+  font-size: 4vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 0;
+}
+.book-for-later{
+  background-color: black;
+  width: 40vh;
+  margin-left: 5vh;
+  margin-top: 2vh;
+  height: 5vh;
+  border-radius: 5vh;
+  font-family: proxima nova;
+  font-size: 3.5vh;
+  color: white;
+  font-weight: bolder;
+  transition: 0.4s;
+}
+.book-for-later:hover{
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+}
